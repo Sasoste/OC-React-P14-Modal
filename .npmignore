@@ -1,0 +1,12 @@
+# Ignorer les fichiers de tests et les fichiers inutiles
+src/main.tsx
+src/App.tsx
+vite-env.d.ts
+vite.config.ts
+node_modules
+package-lock.json
+.gitignore
+vite.config.ts
+tsconfig.json
+tsconfig.app.json
+tsconfig.node.json

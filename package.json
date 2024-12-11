@@ -1,0 +1,27 @@
+{
+  "name": "hrnet-modal-david",
+  "version": "1.0.0",
+  "description": "A customizable and reusable React component of a modal written with TypeScript.",
+  "main": "dist/modal.umd.js",
+  "module": "dist/modal.es.js",
+  "types": "dist/Modal.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -b && vite build"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10"
+  },
+  "author": "David",
+  "license": "MIT"
+}
